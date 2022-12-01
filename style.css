@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+body{
+margin:0 auto;
+font-family: 'League Spartan', sans-serif;
+font-size: 15px;
+background-image: url('images/bg-pattern-top-desktop.svg');
+background-repeat: no-repeat;
+width: 100%;
+}
+.main{
+list-style: none;
+max-width: 1200px;
+margin:100px 0 100px 150px;
+
+
+}
+.top_right{
+  padding-left: 200px;
+}
+
+.top{
+  display: flex;
+}
+.top_left{
+  padding-bottom: 60px;
+}
+.top_left h1{
+  color: hsl(300, 43%, 22%);
+  margin-right: 20px;
+  font-size: 50px;
+}
+.top_left li{
+  opacity: 70%;
+}
+
+.star{
+  display: flex;
+  background-color: hsl(300, 24%, 96%);
+  margin:20px;
+  padding:15px 40px 15px 20px;
+  font-size: 14px;
+  border-radius: 10px;
+
+}
+.star img{
+  padding-left: 5px;
+}
+.star h3{
+  color: hsl(300, 43%, 22%);
+  padding-left: 20px;
+
+}
+
+.one{
+margin-right:80px;
+margin-top: 30px;
+
+
+}
+.two{
+margin-left: 60px;
+margin-right:50px;
+
+
+}
+.three{
+margin-left: 120px;
+
+}
+.bottom{
+  display: flex;
+
+  }
+  .title{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  .bottom h4{
+    color: hsl(333, 80%, 67%);
+  }
+  .bottom h3,.bottom li{
+    color: hsl(0, 0%, 100%);
+  }
+.left{
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(300, 43%, 22%);
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  width:320px;
+  height: 200px;
+}
+.colton,.irene,.anne{
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.colton img,.irene img ,.anne img{
+  border-radius: 50%;
+  width:40px;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(300, 43%, 22%);
+  margin-left: 40px;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top:20px;
+  margin-bottom: 20px;
+  width:320px;
+  height: 200px;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(300, 43%, 22%);
+  margin-left: 40px;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 40px;
+  width:320px;
+  height: 200px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 50px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media only screen and (max-width:760px){
+ .top{
+   display: grid;
+   grid-template-columns: 350px;
+ }
+.top_right{
+
+}
+.bottom{
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+
+}
